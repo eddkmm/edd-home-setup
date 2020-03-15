@@ -1,0 +1,16 @@
+# Ignore everything except subdirectories
+*
+
+# But not these files...
+!.zshrc
+!.gitignore
+!package.json
+!yarn.lock
+!README.md
+
+# if the files to be tracked are in subdirectories
+!.oh-my-zsh-custom/
+.oh-my-zsh-custom/*
+!.oh-my-zsh-custom/*.zsh
+.oh-my-zsh-custom/example.zsh
+
